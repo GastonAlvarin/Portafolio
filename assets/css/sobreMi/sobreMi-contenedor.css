@@ -1,0 +1,6 @@
+.sobreMi__contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 3rem 0 3rem 5rem;
+}

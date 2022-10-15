@@ -1,0 +1,12 @@
+.redes__item {
+    list-style: none;
+}
+
+.arrow {
+    background: url(/assets/imagenes/arrow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 14px;
+    height: 14px;
+    margin-right: 4rem;
+}
