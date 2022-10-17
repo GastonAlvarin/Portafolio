@@ -1,0 +1,7 @@
+.formulario__input {
+    border: none;
+    border-radius: 5px;
+    height: 56px;
+    margin: 0 0 2rem 0;
+    Box-shadow: 3px 4px 5px #000000
+}

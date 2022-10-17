@@ -1,0 +1,9 @@
+.textoButton__contenedor {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    max-width: 250px;
+}
+#ordenNegativo{
+    order: -1;
+}

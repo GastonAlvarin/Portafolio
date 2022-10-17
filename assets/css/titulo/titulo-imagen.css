@@ -1,4 +1,9 @@
 .titulo__imagen {
+    background: url("../../imagenes/IMG-20211126-WA0064.jpeg");
+    background-position: center;
+    background-size: cover;
     width: 368px;
     height: 368px;
+    border-radius: 50%;
+    
 }

@@ -1,0 +1,8 @@
+.formulario__button {
+    width: 144px;
+    padding: .7rem;
+    background: #2A7AE4;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}

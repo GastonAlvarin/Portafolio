@@ -1,0 +1,7 @@
+.formulario__textarea {
+    height: 132px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    Box-shadow: 3px 4px 5px #000000
+}

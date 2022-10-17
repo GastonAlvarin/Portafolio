@@ -1,6 +1,6 @@
-.titulo {
+.experiencia__contenedor {
     display: flex;
-    margin: 7rem 0rem 7rem 0rem;
     justify-content: center;
     align-items: center;
+    margin: 0 3rem 3rem 3rem;
 }

@@ -1,0 +1,33 @@
+/* Inicio Skills */
+.skillsHobbies__icono--html {
+    width: 36px;
+    height: 40px;
+}
+.skillsHobbies__icono--css {
+    width: 36px;
+    height: 40px;
+}
+.skillsHobbies__icono--javascript {
+    width: 36px;
+    height: 40px;
+}
+.skillsHobbies__icono--python {
+    width: 40px;
+    height: 40px;
+}
+.skillsHobbies__icono--django {
+    width: 40px;
+    height: 35px;
+}
+.skillsHobbies__icono--sql {
+    width: 36px;
+    height: 40px;
+}
+/* Fin Skills */
+
+/* Inicio Hobbies */
+
+.skillsHobbies__icono--hobbies{
+    height: 40px;
+    width: 35px;
+}

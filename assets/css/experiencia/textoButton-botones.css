@@ -1,0 +1,15 @@
+.textoButton__botones {
+    padding: 1rem;
+    border: 1px solid #2A7AE4;
+    background: #ffffff;
+    color: #2A7AE4;
+    cursor: pointer;
+    width: 114.94px;
+    height: 52.39px;
+}
+
+.textoButton__botones:last-child {
+    background: #2A7AE4;
+    color: #ffffff;
+    margin-left: .5rem;
+}

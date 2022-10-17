@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
+
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,27 +28,55 @@
         <link href="./assets/css/sobreMi/sobreMi-titulo.css" rel="stylesheet">
         <link href="./assets/css/sobreMi/sobreMi-parrafo.css" rel="stylesheet">
         <link href="./assets/css/sobreMi/sobreMi-imagen.css" rel="stylesheet">
-        <link href="./assets/css/skills.css" rel="stylesheet">
-        <link href="./assets/css/skills/skills-titulo.css" rel="stylesheet">
-        <link href="./assets/css/skills/skills-alinear.css" rel="stylesheet">
-        <link href="./assets/css/skills/skills.contenedor.css" rel="stylesheet">
+        <link href="./assets/css/skillsHobbies.css" rel="stylesheet">
+        <link href="./assets/css/skillsHobbies/skillsHobbies-titulo.css" rel="stylesheet">
+        <link href="./assets/css/skillsHobbies/skillsHobbies-alinear.css" rel="stylesheet">
+        <link href="./assets/css/skillsHobbies/skillsHobbies-contenedor.css" rel="stylesheet">
+        <link href="./assets/css/skillsHobbies/skillsHobbies-imagen.css" rel="stylesheet">
+        <link href="./assets/css/skillsHobbies/skillsHobbies-icono.css" rel="stylesheet">
+        <link href="./assets/css/skillsHobbies/skillsHobbies-nombre.css" rel="stylesheet">
+        <link href="./assets/css/academica.css" rel="stylesheet">
+        <link href="./assets/css/formacion-academica/academica-titulo.css" rel="stylesheet">
+        <link href="./assets/css/formacion-academica/academica-alineado.css" rel="stylesheet">
+        <link href="./assets/css/formacion-academica/academica-contenedor.css" rel="stylesheet">
+        <link href="./assets/css/formacion-academica/academica-item.css" rel="stylesheet">
+        <link href="./assets/css/formacion-academica/academica-nombre.css" rel="stylesheet">
+        <link href="./assets/css/formacion-academica/academica-anho.css" rel="stylesheet">
+        <link href="./assets/css/experiencia.css" rel="stylesheet">
+        <link href="./assets/css/experiencia/experiencia-titulo.css" rel="stylesheet">
+        <link href="./assets/css/experiencia/experiencia-contenedor.css" rel="stylesheet">
+        <link href="./assets/css/experiencia/experiencia-imagen.css" rel="stylesheet">
+        <link href="./assets/css/experiencia/textoButton-contenedor.css" rel="stylesheet">
+        <link href="./assets/css/experiencia/textoButton-titulo.css" rel="stylesheet">
+        <link href="./assets/css/experiencia/textoButton-nombre.css" rel="stylesheet">
+        <link href="./assets/css/experiencia/textoButton-botones.css" rel="stylesheet">
+        <link href="./assets/css/contacto.css" rel="stylesheet">
+        <link href="./assets/css/contacto/contacto-alineado.css" rel="stylesheet">
+        <link href="./assets/css/contacto/contacto-imagen.css" rel="stylesheet">
+        <link href="./assets/css/contacto/contacto-formulario.css" rel="stylesheet">
+        <link href="./assets/css/contacto/formulario-titulo.css" rel="stylesheet">
+        <link href="./assets/css/contacto/formulario-parrafo.css" rel="stylesheet">
+        <link href="./assets/css/contacto/formulario-form.css" rel="stylesheet">
+        <link href="./assets/css/contacto/formulario-input.css" rel="stylesheet">
+        <link href="./assets/css/contacto/formulario-textarea.css" rel="stylesheet">
+        <link href="./assets/css/contacto/formulario-button.css" rel="stylesheet">
+        <link href="./assets/css/footer.css" rel="stylesheet">
+
     </head>
-
     <body>
-        <header class="cabecera">
 
+        <header class="cabecera">
             <div class="logo">
                 <img class="logo__imagen" src="./assets/imagenes/vector.png" alt="logo de estrellas" >
                 <h2 class="logo__titulo">Gaston Alvarin</h2>
             </div>
                 <nav class="menu">
                     <ul class="menu__lista">
-                        <li class="menu__item"><a class="link" href="#">Sobre mi</a></li>
-                        <li class="menu__item"><a class="link" href="#">Skills</a></li>
-                        <li class="menu__item"><a class="link" href="#">Hobbies</a></li>
-                        <li class="menu__item"><a class="link" href="#">Formación</a></li>
-                        <li class="menu__item"><a class="link" href="#">Proyectos</a></li>
-                        <li class="menu__item"><a class="link activo" href="#">contactos@fulana.com</a></li>
+                        <li class="menu__item"><a class="link" href="#sobreMi">Sobre mi</a></li>
+                        <li class="menu__item"><a class="link" href="#skills">skills&Hobbies</a></li>
+                        <li class="menu__item"><a class="link" href="#formacion">Formación</a></li>
+                        <li class="menu__item"><a class="link" href="#proyectos">Proyectos</a></li>
+                        <li class="menu__item"><a class="link activo" href="#contacto">contactos@fulana.com</a></li>
                     </ul>
                 </nav>
 
@@ -56,79 +85,248 @@
         <main class="cuerpo">
             <div class="titulo">
                 <div class="titulo-contenedor">
-                    <h1 class="titulo__titulo">Hola, mi nombre es Gaston Alvarin y construyo paginas web</h1>
-                    <p class="titulo__parrafo">Soy formado en.... y actualmente estoy participando del proyecto Oracle ONE en Alura Latam</p>
+                    <h1 class="titulo__titulo">Hola, mi nombre es Gaston Alvarin y construyo paginas web.</h1>
+                    <p class="titulo__parrafo">Soy de nacionalidad Argentina, tengo 26 años y
+                        vengo de realizar un curso de programación web con Python y el framework Django, actualmente estoy participando del proyecto Oracle ONE en Alura Latam</p>
                     <ul class="redes__lista">
-                        <li class="redes__item"><a class="link" href="https://github.com/GastonAlvarin">Github</a></li>
-                        <div class="arrow" ></div>
-                        <li class="redes__item"><a class="link" href="#">LinKedin</a></li>
-                        <div class="arrow" ></div>
-                        <li class="redes__item"><a class="link" href="#">Instagram</a></li>
-                        <div class="arrow" ></div>
-                        <li class="redes__item"><a class="link" href="#">Curriculo</a></li>
-                        <div class="arrow" ></div>
+                        <li class="redes__item"><a class="link" href="https://github.com/GastonAlvarin">Github<img src="./assets/imagenes/arrow.png"></a></li>
+                        <li class="redes__item"><a class="link" href="www.linkedin.com/in/gaston-alvarin">LinKedin<img src="./assets/imagenes/arrow.png"></a></li>
+                        <li class="redes__item"><a class="link" href="https://www.instagram.com/gastonalvarin/">Instagram<img src="./assets/imagenes/arrow.png"></a></li>
+                        <li class="redes__item"><a class="link" href="#">Curriculo<img src="./assets/imagenes/arrow.png"></a></li>
                     </ul>
                 </div>
-                <img src="./assets/imagenes/profile.png" alt="" class="titulo__imagen"></img>
+                <div alt="" class="titulo__imagen"></div>
             </div>
 
-            <div class="sobreMi">
+            <div class="sobreMi" id="sobreMi">
                 <div class="sobreMi__contenedor">
                     <h3 class="sobreMi__titulo">Sobre mi</h3>
-                    <p class="sobreMi__parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
+                    <p class="sobreMi__parrafo">Profecional responsable y eficiente en busca de trabajo. Mi objetivo es seguir mejorando mi experiencia
+                        y mis conocimiento en el Desarrollo Web. Obtuve experiencia desarrollando varias paginas de manera individual 
+                        y tambien poseo habilidades de comunicación, así como también capacidad de adaptación, aprendizaje veloz y trabajo en equipo generadas en la realización 
+                        de una pagina modelo Blog para una ONG </p>
                     <img src="./assets/imagenes/signature.png" class="sobreMi__imagen" alt="">
                 </div>
             </div>
         </main>
 
-        <section class="skills">
-            <h3 class="skills__titulo">Skills</h3>
-            <div class="skills__alinear">
-                <div class="skills__contenedor">
+        <section class="skillsHobbies" id="skills">
+            <h3 class="skillsHobbies__titulo">Skills</h3>
+            <div class="skillsHobbies__alinear">
+                <div class="skillsHobbies__contenedor">
                     <ul>
-                        <li class="skills__img"></li>
-                        <img src="./assets/imagenes/htlm.png" alt="">
-                        <li class="skills__nombre">Html 5</li>
+                        <li class="skillsHobbies__imagen"></li>
+                        <img src="./assets/imagenes/1.png" class="skillsHobbies__icono--html" alt="">
+                        <li class="skillsHobbies__nombre">Html 5</li>
                     </ul>
                 </div>
-                <div class="skills__contenedor">
+                <div class="skillsHobbies__contenedor">
                     <ul>
-                        <li class="skills__img"></li>
-                        <img src="./assets/imagenes/js_icon.png" alt="">
-                        <li class="skills__nombre">JavaScript</li>
+                        <li class="skillsHobbies__imagen"></li>
+                        <img src="./assets/imagenes/2.png" class="skillsHobbies__icono--css" alt="">
+                        <li class="skillsHobbies__nombre">CSS</li>
                     </ul>
                 </div>
-                <div class="skills__contenedor">
+                <div class="skillsHobbies__contenedor">
                     <ul>
-                        <li class="skills__img"></li>
-                        <img src="./assets/imagenes/php_icon.png" alt="">
-                        <li class="skills__nombre">PHP</li>
+                        <li class="skillsHobbies__imagen"></li>
+                        <img src="./assets/imagenes/3.png" class="skillsHobbies__icono--javascript" alt="">
+                        <li class="skillsHobbies__nombre">JavaScript</li>
                     </ul>
                 </div>
-                <div class="skills__contenedor">
+                <div class="skillsHobbies__contenedor">
                     <ul>
-                        <li class="skills__img"></li>
-                        <img src="./assets/imagenes/nodejs_icon.png" alt="">
-                        <li class="skills__nombre">Node JS</li>
+                        <li class="skillsHobbies__imagen"></li>
+                        <img src="./assets/imagenes/python.png" class="skillsHobbies__icono--python" alt="">
+                        <li class="skillsHobbies__nombre">Python</li>
                     </ul>
                 </div>
-                <div class="skills__contenedor">
+                <div class="skillsHobbies__contenedor">
                     <ul>
-                        <li class="skills__img"></li>
-                        <img src="./assets/imagenes/react_icon.png" alt="">
-                        <li class="skills__nombre">React</li>
+                        <li class="skillsHobbies__imagen"></li>
+                        <img src="./assets/imagenes/django.png" class="skillsHobbies__icono--django" alt="">
+                        <li class="skillsHobbies__nombre">Django</li>
                     </ul>
                 </div>
-                <div class="skills__contenedor">
+                <div class="skillsHobbies__contenedor">
                     <ul>
-                        <li class="skills__img"></li>
-                        <img src="./assets/imagenes/css_icon.png" alt="">
-                        <li class="skills__nombre">CSS</li>
+                        <li class="skillsHobbies__imagen"></li>
+                        <img src="./assets/imagenes/sql.png" class="skillsHobbies__icono--sql" alt="">
+                        <li class="skillsHobbies__nombre">Database</li>
                     </ul>
                 </div>
             </div>
         </section>
+
+        <section class="skillsHobbies">
+            <h3 class="skillsHobbies__titulo">Hobbies</h3>
+            <div class="skillsHobbies__alinear">
+                <div class="skillsHobbies__contenedor">
+                    <ul>
+                        <li class="skillsHobbies__imagen"></li>
+                        <img src="./assets/imagenes/pareja.png" class="skillsHobbies__icono--hobbies" alt="">
+                        <li class="skillsHobbies__nombre">pareja</li>
+                    </ul>
+                </div>
+                <div class="skillsHobbies__contenedor">
+                    <ul>
+                        <li class="skillsHobbies__imagen"></li>
+                        <img src="./assets/imagenes/pc2.png" class="skillsHobbies__icono--hobbies" alt="">
+                        <li class="skillsHobbies__nombre">Jugar en pc</li>
+                    </ul>
+                </div>
+                <div class="skillsHobbies__contenedor">
+                    <ul>
+                        <li class="skillsHobbies__imagen"></li>
+                        <img src="./assets/imagenes/serie.png" class="skillsHobbies__icono--hobbies" alt="">
+                        <li class="skillsHobbies__nombre">Ver series</li>
+                    </ul>
+                </div>
+                <div class="skillsHobbies__contenedor">
+                    <ul>
+                        <li class="skillsHobbies__imagen"></li>
+                        <img src="./assets/imagenes/mate.png" class="skillsHobbies__icono--hobbies" alt="">
+                        <li class="skillsHobbies__nombre">Mates en Flia</li>
+                    </ul>
+                </div>
+                <div class="skillsHobbies__contenedor">
+                    <ul>
+                        <li class="skillsHobbies__imagen"></li>
+                        <img src="./assets/imagenes/mascota.png" class="skillsHobbies__icono--hobbies" alt="">
+                        <li class="skillsHobbies__nombre">mascotas</li>
+                    </ul>
+                </div>
+                <div class="skillsHobbies__contenedor">
+                    <ul>
+                        <li class="skillsHobbies__imagen"></li>
+                        <img src="./assets/imagenes/amigo.png" class="skillsHobbies__icono--hobbies" alt="">
+                        <li class="skillsHobbies__nombre">Visitar amigos</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="academica" id="formacion">
+            <h3 class="academica__titulo">Formación académica</h3>
+            <div class="academica__alineado">
+                <div class="academica__contenedor">
+                    <ul>
+                        <li class="academica__item"><img src="./assets/imagenes/informatorio.jpg"></li>
+                    </ul>
+                    <h4 class="academica__nombre">programación Web con Python y Django</h4>
+                    <p class="academica__anho">2022 - Informatorio</p>
+                </div>
+                <div class="academica__contenedor">
+                    <ul>
+                        <li class="academica__item"><img src="./assets/imagenes/informatorio.jpg"></li>
+                    </ul>
+                    <h4 class="academica__nombre">Base de Datos con Microsoft SQL Server</h4>
+                    <p class="academica__anho">2022 - Informatorio</p>
+                </div>
+                <div class="academica__contenedor">
+                    <ul>
+                        <li class="academica__item"><img src="./assets/imagenes/alura_logo.png"></li>
+                    </ul>
+                    <h4 class="academica__nombre">Principiante en Programación</h4>
+                    <p class="academica__anho">2022 - Alura</p>
+                </div>
+                <div class="academica__contenedor">
+                    <ul>
+                        <li class="academica__item"><img src="./assets/imagenes/informatorio.jpg"></li>
+                    </ul>
+                    <h4 class="academica__nombre">Ingles Nivel 1</h4>
+                    <p class="academica__anho">2022 - Informatorio</p>
+                </div>
+                <div class="academica__contenedor">
+                    <ul>
+                        <li class="academica__item"><img src="./assets/imagenes/alura_logo.png"></li>
+                    </ul>
+                    <h4 class="academica__nombre">Desarrollo Personal</h4>
+                    <p class="academica__anho">2022 - Alura</p>
+                </div>
+                <div class="academica__contenedor">
+                    <ul>
+                        <li class="academica__item"><img src="./assets/imagenes/cenit.png"></li>
+                    </ul>
+                    <h4 class="academica__nombre">Excel Avanzado</h4>
+                    <p class="academica__anho">2022 - Cenit</p>
+                </div>
+                <div class="academica__contenedor">
+                    <ul>
+                        <li class="academica__item"><img src="./assets/imagenes/binary teach.jpg"></li>
+                    </ul>
+                    <h4 class="academica__nombre">Entrenamiento de Binary Training</h4>
+                    <p class="academica__anho">2021 - Binary Teach</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="experiencia" id="proyectos">
+            <h3 class="experiencia__titulo">Experiencia profecional</h3>
+            <div class="experiencia__contenedor">
+                <img src="./assets/imagenes/encriptador.png" alt="" class="experiencia__imagen">
+                <div class="textoButton__contenedor">
+                    <h3 class="textoButton__titulo">Encriptador de texto</h3>
+                    <p class="textoButton__nombre">Encripta y desencripta el texto que se desee introducir. <br> 
+                    Funcionalidades realizadas con JavaScript</p>
+                    <div>
+                        <a href="https://github.com/GastonAlvarin/Encriptador"><button class="textoButton__botones">Repositorio</button></a><a href="//gastonalvarin.github.io/Encriptador/"><button class="textoButton__botones">Ver demo</button></a> 
+                    </div>                
+                </div>
+            </div>
+            <div class="experiencia__contenedor">
+                <img src="./assets/imagenes/forca_print.png" alt="" >
+                <div class="textoButton__contenedor" id="ordenNegativo">
+                    <h3 class="textoButton__titulo">Juego creado con HTML y JavaScript</h3>
+                    <p class="textoButton__nombre">Challenge Oracle</p>
+                    <div>
+                        <button class="textoButton__botones">Repositorio</button><button class="textoButton__botones">Ver demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="experiencia__contenedor">
+                <img src="./assets/imagenes/lalcec.png" alt="" class="experiencia__imagen">
+                <div class="textoButton__contenedor">
+                    <h3 class="textoButton__titulo">Blog</h3>
+                    <p class="textoButton__nombre">Blog para ONG contra el cancer <br> Funcionalidades realizadas con Python y Django</p>
+                    <div>
+                        <a href="https://github.com/GastonAlvarin/PROYECTOFINAL_2022_Grupo4"><button class="textoButton__botones">Repositorio</button></a><a href="http://infolalcecg4.herokuapp.com/"><button class="textoButton__botones">Ver demo</button></a>
+                    </div>                
+                </div>
+            </div>
+            <div class="experiencia__contenedor">
+                <img src="./assets/imagenes/forca2_print.png" alt="" class="experiencia__imagen">
+                <div class="textoButton__contenedor" id="ordenNegativo">
+                    <h3 class="textoButton__titulo">Juego creado con HTML, CSS y JavaScript</h3>
+                    <p class="textoButton__nombre">Challenge Oracle</p>
+                    <div>
+                        <button class="textoButton__botones">Repositorio</button><button class="textoButton__botones">Ver demo</button>
+                    </div>                
+                </div>
+            </div>
+        </section>
+
+        <section class="contacto" id="contacto">
+            <div class="contacto__alineado">
+                <img src="./assets/imagenes/contact_image.png" class="contacto__imagen"alt="">
+                <div class="contacto__formulario">
+                    <h3 class="formulario__titulo">Contacto</h3>
+                    <p class="formulario__parrafo">¿Quieres contactarme?</br>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+                    <form class="formulario__form" name="form">
+                        <input class="formulario__input" type="text" name="nombre" placeholder="Nombre">
+                        <input class="formulario__input" type="email" name="email" placeholder="E-mail">
+                        <input class="formulario__input" type="text" name="asunto" placeholder="Asunto">
+                        <textarea class="formulario__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
+                        <button type="submit" class="formulario__button">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <h3>Desarrollado por Gaston Alvarin</h3>
+            <h3>2022</h3>
+        </footer>
         
     </body>
 </html>

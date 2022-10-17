@@ -1,0 +1,6 @@
+.academica__contenedor {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    width: calc(33.3% - 1rem);
+}

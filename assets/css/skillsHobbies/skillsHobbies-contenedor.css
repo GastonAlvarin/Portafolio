@@ -1,0 +1,9 @@
+.skillsHobbies__contenedor {
+    display: flex;
+    align-items: flex-end;
+    width: 150px;
+    height: 150px;
+    background: #ffffff;
+    padding: 1rem;
+    margin-left: .5rem;
+}
